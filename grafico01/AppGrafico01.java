@@ -2,7 +2,10 @@ package grafico01;
 
 public class AppGrafico01 {
     public static void main(String[] args) {
-        SegundoGrau f = new SegundoGrau(12);
+        int a = 12;
+        int b = -2;
+        int c = 6;
+        SegundoGrau f = new SegundoGrau(a, b, c);
         Grafico g = new Grafico(true, '*');
 
         f.conn(g);

@@ -1,11 +1,13 @@
 package grafico01;
 
 public class SegundoGrau {
-    int a;
+    int a, b, c;
     Grafico saida;
 
-    SegundoGrau(int a){
+    SegundoGrau(int a, int b, int c){
         this.a = a;
+        this.b = b;
+        this.c = c;
         saida = null;
     }
 
