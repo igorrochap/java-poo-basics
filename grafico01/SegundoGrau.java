@@ -17,8 +17,6 @@ public class SegundoGrau {
         if(saida != null){
             for(int i = 1; i <= a; i++){
                 saida.plot(i);
-
-                //v += 1;
             }
             for(int i = a; i > 0; i--){
                 saida.plot(i);
